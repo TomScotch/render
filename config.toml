@@ -1,5 +1,5 @@
-baseURL = "https://github.com/tomscotch/render"
-title = "Polymatrix"
+baseURL = "https://example.com"
+title = "HUGO.386"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "hugo.386"
@@ -7,19 +7,19 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "Main"
+    mainpagetitle = "Polymatrix"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "Welcome" 
+    mainpagesubtitle = "Welcome to my Blog" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "This is my Blog enjoy"
+    mainpagedesc = "Please enjoy"
 
     # The name to display in the copyright section in the footer
     copyrightname = "TomScotch"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "http://github.com/tomscotch/"
+    copyrighturl = "http://github.com/tomscotch"
 
     # Show the "built on Hugo" disclaimer
     showhugo = false
@@ -44,22 +44,27 @@ preserveTaxonomyNames = true
     name = "TomScotch"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "http://github.com/tomscotch"
+    url = ""
 
     # Text to go before copyright information
-    prefix = "©"
+    prefix = ""
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "2021"
+    suffix = "Example site"
 
 [menu]
   # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
 
   [[menu.main]]
     identifier = "posts"
     name = "All posts"
     url = "/post/"       # The path can lead to a content folder too.
-    weight = 10
+    weight = 20
 
 [taxonomies]
 category = "categories"
@@ -69,20 +74,20 @@ tag = "tags"
 [privacy]
 
   [privacy.vimeo]
-    disabled = true
+    disabled = false
     simple = true
 
   [privacy.twitter]
-    disabled = true
+    disabled = false
     enableDNT = true
     simple = true
 
   [privacy.instagram]
-    disabled = true
+    disabled = false
     simple = true
 
   [privacy.youtube]
-    disabled = true
+    disabled = false
     privacyEnhanced = true
 
 [services]
@@ -92,4 +97,3 @@ tag = "tags"
 
   [services.twitter]
     disableInlineCSS = true
-
