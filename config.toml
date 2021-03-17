@@ -1,4 +1,4 @@
-baseURL = "https://github.com/tomscotch/render""
+baseURL = "https://github.com/tomscotch/render"
 title = "Polymatrix"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
