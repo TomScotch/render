@@ -77,10 +77,10 @@ tag = "tags"
  #   disabled = true
   #  simple = true
 
-  [privacy.twitter]
-    disabled = true
-    enableDNT = true
-    simple = true
+#  [privacy.twitter]
+ #   disabled = true
+  #  enableDNT = true
+   # simple = true
 
   [privacy.instagram]
     disabled = true
