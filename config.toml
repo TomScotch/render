@@ -13,7 +13,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "Welcome" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "This is my Blog"
+    mainpagedesc = "Blog"
 
     # The name to display in the copyright section in the footer
     copyrightname = "TomScotch"
@@ -41,7 +41,7 @@ preserveTaxonomyNames = true
     loadonepass = false
 
 [params.copyright]
-    name = "JM Fergeau"
+    name = "TomScotch"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     url = ""
