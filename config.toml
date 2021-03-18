@@ -7,22 +7,22 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "Polymatrix"
+    mainpagetitle = "HUGO.386"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "Welcome to my Blog" 
+    mainpagesubtitle = "Welcome to the early 90s!" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "Please enjoy"
+    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog. Check the links below to access the posts."
 
     # The name to display in the copyright section in the footer
-    copyrightname = "TomScotch"
+    copyrightname = "JM Fergeau"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "http://github.com/tomscotch"
+    copyrighturl = "http://jmf-portfolio.netlify.com"
 
     # Show the "built on Hugo" disclaimer
-    showhugo = false
+    showhugo = true
 
     # Urls for social networks
     facebook = "https://facebook.com"
@@ -41,13 +41,13 @@ preserveTaxonomyNames = true
     loadonepass = false
 
 [params.copyright]
-    name = "TomScotch"
+    name = "JM Fergeau"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = ""
+    url = "http://jmf-portfolio.netlify.com"
 
     # Text to go before copyright information
-    prefix = ""
+    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = "Example site"
