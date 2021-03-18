@@ -3,15 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tomscotch.onrender.com/about/</loc>
+    <lastmod>2021-03-18T01:10:34+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tomscotch.onrender.com/categories/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomscotch.onrender.com/tags/intro/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomscotch.onrender.com/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomscotch.onrender.com/post/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomscotch.onrender.com/categories/posts/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tomscotch.onrender.com/tags/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tomscotch.onrender.com/post/welcome/</loc>
+    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
   </url>
   
 </urlset>
