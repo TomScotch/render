@@ -22,7 +22,7 @@ preserveTaxonomyNames = true
     copyrighturl = ""
 
     # Show the "built on Hugo" disclaimer
-    showhugo = false
+    showhugo = true
 
     # Urls for social networks
     facebook = "https://facebook.com"
@@ -73,9 +73,9 @@ tag = "tags"
 
 [privacy]
 
-  [privacy.vimeo]
-    disabled = true
-    simple = true
+#  [privacy.vimeo]
+ #   disabled = true
+  #  simple = true
 
   [privacy.twitter]
     disabled = true
