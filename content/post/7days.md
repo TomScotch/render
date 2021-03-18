@@ -5,4 +5,8 @@ description: "Horror Game in Development"
 tags: ["game","dev"]
 categories: ["posts"]
 ---
-7days is a Horror Game i currently develop in Unity3D.
+# Horror Game in Development 
+> 7 Days is a Horror Game i currently develop in Unity3D. Using Quixel Mega Textures and the High Definition Render Engine.
+---
+
+

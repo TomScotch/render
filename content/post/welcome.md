@@ -5,4 +5,13 @@ description: "Introduction"
 tags: ["intro"]
 categories: ["posts"]
 ---
-Bird of Hermes is my name, eating my wings to make me tame.
+# This my Personal Blog
+## I use this to rant about
+---
+
+- >Game Development
+- >Programming
+- >Technology
+- >Media
+- >Entertainment
+---

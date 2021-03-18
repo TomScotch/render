@@ -5,4 +5,10 @@ description: ""
 tags: []
 categories: []
 ---
-This my Personal Blog
+# About me
+## What do i do
+- >Programmer (Java, C#)
+- >Developer (Game Mechanics)
+- >Guitar Player (Metal, Rock)
+- >Gamer ( RPG, FPS)
+---
