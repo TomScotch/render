@@ -1,47 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Polymatrix</title>
+    <title>7Days - Showcase</title>
     <link>https://tomscotch.onrender.com/</link>
-    <description>Recent content on Polymatrix</description>
+    <description>Recent content on 7Days - Showcase</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 18 Mar 2021 01:23:15 +0000</lastBuildDate><atom:link href="https://tomscotch.onrender.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tomscotch.onrender.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>7days</title>
-      <link>https://tomscotch.onrender.com/post/7days/</link>
-      <pubDate>Thu, 18 Mar 2021 01:23:15 +0000</pubDate>
+      <title>Entrepreneurship</title>
+      <link>https://tomscotch.onrender.com/images/entrepreneurship/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tomscotch.onrender.com/post/7days/</guid>
-      <description>Horror Game in Development  7 Days is a Horror Game i currently develop in Unity3D. Using Quixel Mega Textures and the High Definition Render Engine.
-  </description>
+      <guid>https://tomscotch.onrender.com/images/entrepreneurship/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://tomscotch.onrender.com/about/</link>
-      <pubDate>Thu, 18 Mar 2021 01:10:34 +0000</pubDate>
+      <title>London</title>
+      <link>https://tomscotch.onrender.com/infos/london/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tomscotch.onrender.com/about/</guid>
-      <description>About me What do i do    Programmer (Java, C#)
-    Developer (Game Mechanics)
-    Guitar Player (Metal, Rock)
-    Gamer ( RPG, FPS)
-    </description>
+      <guid>https://tomscotch.onrender.com/infos/london/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Welcome</title>
-      <link>https://tomscotch.onrender.com/post/welcome/</link>
-      <pubDate>Thu, 18 Mar 2021 01:05:22 +0000</pubDate>
+      <title>My Startup</title>
+      <link>https://tomscotch.onrender.com/videos/startup/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tomscotch.onrender.com/post/welcome/</guid>
-      <description>This my Personal Blog I use this to rant about     Game Development
-    Programming
-    Technology
-    Media
-    Entertainment
-    </description>
+      <guid>https://tomscotch.onrender.com/videos/startup/</guid>
+      <description></description>
     </item>
     
   </channel>

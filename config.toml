@@ -1,99 +1,26 @@
 baseURL = "https://tomscotch.onrender.com"
-title = "Polymatrix"
-languageCode = "en"
-DefaultContentLanguage = "en" # Change this to change the site's language
-theme = "hugo.386"
-preserveTaxonomyNames = true
+languageCode = "en-us"
+title = "7Days - Showcase"
+Paginate = 1000
+googleAnalytics = ""
+theme = "showcase"
+#disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# this setting should always be set to false, otherwise it will break the section navigation bar
+pluralizelisttitles = false
 
 [params]
-# The name to display as main title in the home page
-mainpagetitle = "Main"
-
-# The subtitle to display under the title in the home page
-mainpagesubtitle = "Welcome"
-
-# The description of your website. It will be displayed in the home page
-mainpagedesc = "Blog"
-
-# The name to display in the copyright section in the footer
-copyrightname = "TomScotch"
-
-# The url to use as link in the copyright name in the footer. Leave empty to use none.
-copyrighturl = ""
-
-# Show the "built on Hugo" disclaimer
-showhugo = true
-
-# Urls for social networks
-#    facebook = "https://facebook.com"
-#    twitter = "https://twitter.com"
-#    linkedin = "https://linkedin.com"
-#    github = "https://github.com"
-#    gitlab = "https://gitlab.com"
-
-# Enables or disables the loading animations. false activates them. Default is false.
-loadfastload = false
-
-# Sets the speed for the page loading effect. Default is 1.0.
-loadspeedfactor = 1.0
-
-# Enables or disables the second flyby cursor. Default is false.
-loadonepass = false
-
-[params.copyright]
-name = "TomScotch"
-
-# The url to use as link in the copyright name in the footer. Leave empty to use none.
-url = ""
-
-# Text to go before copyright information
-prefix = ""
-
-# Text to go between copyright and hugo disclaimer (if enabled)
-suffix = ""
-
-[menu]
-# This displays buttons in the navbar to access your contents
-[[menu.main]]
-identifier = "about" # An unique identifier for the button
-name = "About" # A display name for the button
-url = "/about/" # The path to the content. It can lead to a single page (like here)
-weight = 10 # A number to order the buttons in the navbar
+  author = "showcase"
+  description = "Minimal, one page, theme for showcasing your work"
+  message = ""
+  hideAutoMenu = false
 
 [[menu.main]]
-identifier = "posts"
-name = "All posts"
-url = "/post/" # The path can lead to a content folder too.
-weight = 20
+  name = "Download"
+  url = "https://drive.google.com/uc?id=1E7XOREXYZG0imWWR-6pYVmIcU1l4hOx7&export=download"
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-
-
-[privacy]
-
-[privacy.vimeo]
-disabled = true
-simple = true
-
-[privacy.twitter]
-disabled = true
-enableDNT = true
-simple = true
-
-[privacy.instagram]
-disabled = true
-simple = true
-
-[privacy.youtube]
-disabled = true
-privacyEnhanced = true
-
-[services]
-
-[services.instagram]
-disableInlineCSS = true
-
-[services.twitter]
-disableInlineCSS = true
+#[social]
+ # facebook = "https://facebook.com"
+  #twitter = "https://twitter.com"
+  #instagram = "https://instagram.com"
+  #linkedin = "https://linkedin.com"

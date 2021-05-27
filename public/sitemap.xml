@@ -1,60 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/post/7days/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/categories/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/tags/dev/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/tags/game/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://tomscotch.onrender.com/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/post/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/categories/posts/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/images/entrepreneurship/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/images/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/infos/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/infos/london/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/videos/startup/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/videos/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tomscotch.onrender.com/categories/</loc>
+  </url><url>
     <loc>https://tomscotch.onrender.com/tags/</loc>
-    <lastmod>2021-03-18T01:23:15+00:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/about/</loc>
-    <lastmod>2021-03-18T01:10:34+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/tags/intro/</loc>
-    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tomscotch.onrender.com/post/welcome/</loc>
-    <lastmod>2021-03-18T01:05:22+00:00</lastmod>
-  </url>
-  
 </urlset>

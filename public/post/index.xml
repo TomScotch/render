@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Polymatrix</title>
+    <title>Post on 7Days - Showcase</title>
     <link>https://tomscotch.onrender.com/post/</link>
-    <description>Recent content in Posts on Polymatrix</description>
+    <description>Recent content in Post on 7Days - Showcase</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 18 Mar 2021 01:23:15 +0000</lastBuildDate><atom:link href="https://tomscotch.onrender.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Mar 2021 14:42:56 +0000</lastBuildDate><atom:link href="https://tomscotch.onrender.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>todo</title>
+      <link>https://tomscotch.onrender.com/post/todo/</link>
+      <pubDate>Tue, 30 Mar 2021 14:42:56 +0000</pubDate>
+      
+      <guid>https://tomscotch.onrender.com/post/todo/</guid>
+      <description>#ToDo
+Castle Scene Snow Scene </description>
+    </item>
+    
     <item>
       <title>7days</title>
       <link>https://tomscotch.onrender.com/post/7days/</link>
