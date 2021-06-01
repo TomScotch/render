@@ -10,7 +10,7 @@ theme = "showcase"
 pluralizelisttitles = false
 
 [params]
-  author = "showcase"
+  author = "7Days"
   description = "Minimal, one page, theme for showcasing your work"
   message = ""
   hideAutoMenu = false

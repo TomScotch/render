@@ -1,57 +1,124 @@
-# Intro
-Your Sanity decreases on witnessing paranormal events.
-Using the Mystic Arts will drain your Willpower.
-Willpower defines how much sanity you recover.
-Sleep replenishes your Willpower, at the cost of time.
-The Butterflies are drawn by your willpower.
-Pictures marked by Blood are Doors, focus on them.
-You have Seven Days for your Journey Good Luck.
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-## Key Mapping
-Move mouse to look around
-F1 - Developer Console
-WASD - Forward,Back,Left,Right
-Space - Jump
-Shift - Run
-C - Crouch
-F - Flashlight
-RightMouse - Zoom
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
 
-### Command List
+.header h2 {
+  text-align: center;
+}
 
-showtime  : shows the elapsed time in seconds
-scene  : loads the scene
-listscenes  : list available scenes
-credits  : Show Game Credits
-print  : Print the text to the screen
-flicker  : Activate Flashlight Flickering 
-quit  : Quit the Game
-stop  : Back to Main Menu
-start  : Start the Game
-screenshots  : Take a Screenshot
-fps  : Shows frames per second
-turnlights  : Switch all lights
-save  : Save your game to disk
-load  : Load your game from disk
-cmdlist  : Shows a list of commands
-empty  : Get help with a specific command
-listsave  : print a list of your save files
-clear  : Clears Console
-starttip  : type cmdlist for a list of commands
-bloodmoon  : turns the moon a bloody red
-evileyes  : activate evil eyes for statues
-zoom  : brings your sight closer to the scene
-intro  : Read the Game Introduction
-checklist  : Game Dev Feature Checklist
-fade  : fade in and out of black canvas
-pause  : pause the game
-delete  : remove a savegame
-timescale  : set timescale
-butterflies  : set number of butterflies manual
-sensitivity  : set mouse sensitivity
-speed  : set movement speed
-fov  : set camera fov
-viewport  : set camera viewport tilt
-whispers  : start / stop whispers
-position  : print position
-version  : print version number
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Scroll Indicator</h2>
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+<div class="content">
+<h3>Intro</h3>
+<p>Your Sanity decreases on witnessing paranormal events.</p>
+<p>Using the Mystic Arts will drain your Willpower.</p>
+<p> Willpower defines how much sanity you recover.</p>
+<p>Sleep replenishes your Willpower, at the cost of time.</p>
+<p>The Butterflies are drawn by your willpower.</p>
+<p>Pictures marked by Blood are Doors, focus on them.</p>
+<p>You have Seven Days for your Journey Good Luck.</p>
+    
+<h3>Key Mapping</h3>
+<p>Move mouse to look around</p>
+<p>F1 - Developer Console</p>
+<p>WASD - Forward,Back,Left,Right</p>
+<p>Space - Jump</p>
+<p>Shift - Run</p>
+<p>C - Crouch</p>
+<p>F - Flashlight</p>
+<p>RightMouse - Zoom</p>
+    
+<h3>Command List</h3>
+<p>showtime  : shows the elapsed time in seconds</p>
+<p>scene  : loads the scene</p>
+<p>listscenes  : list available scenes</p>
+<p>credits  : Show Game Credits</p>
+<p>print  : Print the text to the screen</p>
+<p>flicker  : Activate Flashlight Flickering </p>
+<p>quit  : Quit the Game</p>
+<p>stop  : Back to Main Menu</p>
+<p>start  : Start the Game</p>
+<p>screenshots  : Take a Screenshot</p>
+<p>fps  : Shows frames per second</p>
+<p>turnlights  : Switch all lights</p>
+<p>save  : Save your game to disk</p>
+<p>load  : Load your game from disk</p>
+<p>cmdlist  : Shows a list of commands</p>
+<p>empty  : Get help with a specific command</p>
+<p>listsave  : print a list of your save files</p>
+<p>clear  : Clears Console</p>
+<p>starttip  : type cmdlist for a list of commands</p>
+<p>bloodmoon  : turns the moon a bloody red</p>
+<p>evileyes  : activate evil eyes for statues</p>
+<p>zoom  : brings your sight closer to the scene</p>
+<p>intro  : Read the Game Introduction</p>
+<p>checklist  : Game Dev Feature Checklist</p>
+<p>fade  : fade in and out of black canvas</p>
+<p>pause  : pause the game</p>
+<p>delete  : remove a savegame</p>
+<p>timescale  : set timescale</p>
+<p>butterflies  : set number of butterflies manual</p>
+<p>sensitivity  : set mouse sensitivity</p>
+<p>speed  : set movement speed</p>
+<p>fov  : set camera fov</p>
+<p>viewport  : set camera viewport tilt</p>
+<p>whispers  : start / stop whispers</p>
+<p>position  : print position</p>
+<p>version  : print version number</p>
+</div>
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+</body>
+</html> 
